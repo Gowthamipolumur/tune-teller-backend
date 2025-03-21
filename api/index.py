@@ -2,7 +2,7 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suppress TensorFlow info/warning logs
 
 import tensorflow as tf
-
+#...
 # No GPU-specific memory settings (since Render uses CPU-only)
 print("✅ Running TensorFlow on CPU with optimized settings")
 
